@@ -32,7 +32,6 @@
         [randomList addObject:@(v)];
     }
     NSLog(@"%@", randomList);
-    // test
 }
 
 + (void)printArray
