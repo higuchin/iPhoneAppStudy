@@ -11,6 +11,10 @@
 #define sum(a, b) a + b
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *myTextField;
+@property (weak, nonatomic) IBOutlet UISlider *mySlider;
+- (IBAction)updateValue:(id)sender;
+- (IBAction)updateValue2:(UISlider *)sender;
 
 @end
 
@@ -21,7 +25,35 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [ViewController printMutableArray];
+    _myTextField.placeholder = @"ありがとう";
+    _myTextField.textColor = [UIColor blueColor];
+    
+//    [ViewController printMutableArray];
+    
+    /*
+    NSString *name = [self fullName:@"樋口" lastName:@"康行"];
+    NSLog(@"%@", name);
+    
+    [self countUp];
+    [self countUp];
+    [self countUp];
+    NSLog(@"%d", _counter);
+     */
+}
+
+- (NSString *) fullName:(NSString *)sei lastName:(NSString *)mei
+{
+    NSString *fullName = [NSString stringWithFormat:@"%@ %@", sei, mei];
+    return fullName;
+}
+
+- (void) countUp
+{
+    _counter++;
+}
+
+- (IBAction)updateValue3:(UISlider *)sender {
+    _valueLabel.text = [NSString stringWithFormat:@"%.2f", sender.value];
 }
 
 + (void)printMutableArray
@@ -100,4 +132,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)updateValue:(id)sender {
+//    NSLog(@"%.1f %%", _mySlider.value * 100);
+}
+
+- (IBAction)updateValue2:(UISlider *)sender {
+//    NSLog(@"%.1f %%", sender.value * 100);
+}
 @end

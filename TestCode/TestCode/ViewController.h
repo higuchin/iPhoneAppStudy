@@ -10,4 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (assign) NSInteger counter;
+
+- (NSString *) fullName:(NSString *)sei lastName:(NSString *)mei;
+- (void) countUp;
+- (IBAction)updateValue3:(UISlider *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *valueLabel;
 @end
