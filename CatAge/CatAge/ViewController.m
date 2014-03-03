@@ -14,6 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *humanLabel;
 
 - (IBAction)calc:(id)sender;
+- (IBAction)bkgTapped:(id)sender;
 
 //- (double)catAgeToHumanAge:(double)catAge; // privateメソッドの宣言は省略可能
 
@@ -39,6 +40,10 @@
     _humanLabel.text = [NSString stringWithFormat:@"%.1f 歳", humanAge];
 }
 
+- (IBAction)bkgTapped:(id)sender {
+    [self.view endEditing:YES];
+}
+
 - (double)catAgeToHumanAge:(double)catAge {
     double result = 0;
     if (catAge <= 1) {
@@ -53,5 +58,14 @@
         result = catAge * 3 + 45;
     }
     return result;
+}
+
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    NSMutableString *tmp = [_catField.text mutableCopy];
+    [tmp replaceCharactersInRange:range withString:string];
+    BOOL isAgeLimit = [tmp doubleValue] <= 100;
+    BOOL isLengthLimit = [tmp length] <= 4;
+    return isAgeLimit && isLengthLimit;
 }
 @end

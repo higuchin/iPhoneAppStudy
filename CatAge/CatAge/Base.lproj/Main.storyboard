@@ -44,10 +44,15 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="calc:" destination="vXZ-lx-hvc" eventType="editingChanged" id="bFA-K5-P4T"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="cfG-L1-J65"/>
                                 </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="bNp-pd-ltu" appends="YES" id="hNb-18-5gp"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="catField" destination="ZQZ-mY-vJL" id="S4l-DE-J6O"/>
@@ -55,6 +60,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="bNp-pd-ltu">
+                    <connections>
+                        <action selector="bkgTapped:" destination="vXZ-lx-hvc" id="dnp-8G-Fjo"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>
