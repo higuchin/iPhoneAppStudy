@@ -13,7 +13,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *catField;
 @property (weak, nonatomic) IBOutlet UILabel *humanLabel;
 
-- (IBAction)calc:(UIButton *)sender;
+- (IBAction)calc:(id)sender;
+
 //- (double)catAgeToHumanAge:(double)catAge; // privateメソッドの宣言は省略可能
 
 @end
@@ -32,7 +33,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)calc:(UIButton *)sender {
+- (IBAction)calc:(id)sender {
     double catAge = [_catField.text doubleValue];
     double humanAge = [self catAgeToHumanAge:catAge];
     _humanLabel.text = [NSString stringWithFormat:@"%.1f 歳", humanAge];
