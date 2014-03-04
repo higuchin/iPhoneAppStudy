@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "MyClass.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *msgTextField;
 
 @end
 
@@ -18,6 +21,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    MyClass *myObj = [[MyClass alloc] init];
+    myObj.where = @"神奈川";
+    _msgTextField.text = [myObj hello:@"山田"];
 }
 
 - (void)didReceiveMemoryWarning
