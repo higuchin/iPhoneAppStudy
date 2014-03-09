@@ -21,6 +21,8 @@
 		312C1C3418CAF49F0058D1B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312C1C1618CAF49F0058D1B3 /* UIKit.framework */; };
 		312C1C3C18CAF49F0058D1B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 312C1C3A18CAF49F0058D1B3 /* InfoPlist.strings */; };
 		312C1C3E18CAF49F0058D1B3 /* ImageSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 312C1C3D18CAF49F0058D1B3 /* ImageSampleTests.m */; };
+		312C1C4918CAF4D40058D1B3 /* Annie in the Sink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 312C1C4718CAF4D40058D1B3 /* Annie in the Sink.jpg */; };
+		312C1C4A18CAF4D40058D1B3 /* Blossom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 312C1C4818CAF4D40058D1B3 /* Blossom.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		312C1C3918CAF49F0058D1B3 /* ImageSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageSampleTests-Info.plist"; sourceTree = "<group>"; };
 		312C1C3B18CAF49F0058D1B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		312C1C3D18CAF49F0058D1B3 /* ImageSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageSampleTests.m; sourceTree = "<group>"; };
+		312C1C4718CAF4D40058D1B3 /* Annie in the Sink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Annie in the Sink.jpg"; sourceTree = "<group>"; };
+		312C1C4818CAF4D40058D1B3 /* Blossom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blossom.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				312C1C2418CAF49F0058D1B3 /* Main.storyboard */,
 				312C1C2718CAF49F0058D1B3 /* ViewController.h */,
 				312C1C2818CAF49F0058D1B3 /* ViewController.m */,
+				312C1C4B18CAF4D90058D1B3 /* Images */,
 				312C1C2A18CAF49F0058D1B3 /* Images.xcassets */,
 				312C1C1918CAF49F0058D1B3 /* Supporting Files */,
 			);
@@ -150,6 +155,15 @@
 				312C1C3A18CAF49F0058D1B3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		312C1C4B18CAF4D90058D1B3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				312C1C4718CAF4D40058D1B3 /* Annie in the Sink.jpg */,
+				312C1C4818CAF4D40058D1B3 /* Blossom.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +242,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312C1C4918CAF4D40058D1B3 /* Annie in the Sink.jpg in Resources */,
 				312C1C2B18CAF49F0058D1B3 /* Images.xcassets in Resources */,
+				312C1C4A18CAF4D40058D1B3 /* Blossom.jpg in Resources */,
 				312C1C1D18CAF49F0058D1B3 /* InfoPlist.strings in Resources */,
 				312C1C2618CAF49F0058D1B3 /* Main.storyboard in Resources */,
 			);
