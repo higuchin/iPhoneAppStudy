@@ -21,6 +21,7 @@
 		312C1C7A18CC9E9A0058D1B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312C1C5C18CC9E990058D1B3 /* UIKit.framework */; };
 		312C1C8218CC9E9A0058D1B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 312C1C8018CC9E9A0058D1B3 /* InfoPlist.strings */; };
 		312C1C8418CC9E9A0058D1B3 /* ViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 312C1C8318CC9E9A0058D1B3 /* ViewSampleTests.m */; };
+		312C1C8E18CC9F010058D1B3 /* Butterfly.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 312C1C8D18CC9F010058D1B3 /* Butterfly.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		312C1C7F18CC9E9A0058D1B3 /* ViewSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewSampleTests-Info.plist"; sourceTree = "<group>"; };
 		312C1C8118CC9E9A0058D1B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		312C1C8318CC9E9A0058D1B3 /* ViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewSampleTests.m; sourceTree = "<group>"; };
+		312C1C8D18CC9F010058D1B3 /* Butterfly.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Butterfly.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				312C1C6A18CC9E990058D1B3 /* Main.storyboard */,
 				312C1C6D18CC9E990058D1B3 /* ViewController.h */,
 				312C1C6E18CC9E990058D1B3 /* ViewController.m */,
+				312C1C8D18CC9F010058D1B3 /* Butterfly.JPG */,
 				312C1C7018CC9E990058D1B3 /* Images.xcassets */,
 				312C1C5F18CC9E990058D1B3 /* Supporting Files */,
 			);
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				312C1C7118CC9E990058D1B3 /* Images.xcassets in Resources */,
+				312C1C8E18CC9F010058D1B3 /* Butterfly.JPG in Resources */,
 				312C1C6318CC9E990058D1B3 /* InfoPlist.strings in Resources */,
 				312C1C6C18CC9E990058D1B3 /* Main.storyboard in Resources */,
 			);
