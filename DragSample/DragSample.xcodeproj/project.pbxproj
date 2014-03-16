@@ -21,6 +21,7 @@
 		3169FE6718D5DC0C00C4BFF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3169FE4918D5DC0C00C4BFF1 /* UIKit.framework */; };
 		3169FE6F18D5DC0C00C4BFF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3169FE6D18D5DC0C00C4BFF1 /* InfoPlist.strings */; };
 		3169FE7118D5DC0C00C4BFF1 /* DragSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3169FE7018D5DC0C00C4BFF1 /* DragSampleTests.m */; };
+		3169FE7B18D5DC2C00C4BFF1 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3169FE7A18D5DC2C00C4BFF1 /* flower.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3169FE6C18D5DC0C00C4BFF1 /* DragSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DragSampleTests-Info.plist"; sourceTree = "<group>"; };
 		3169FE6E18D5DC0C00C4BFF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3169FE7018D5DC0C00C4BFF1 /* DragSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragSampleTests.m; sourceTree = "<group>"; };
+		3169FE7A18D5DC2C00C4BFF1 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				3169FE5718D5DC0C00C4BFF1 /* Main.storyboard */,
 				3169FE5A18D5DC0C00C4BFF1 /* ViewController.h */,
 				3169FE5B18D5DC0C00C4BFF1 /* ViewController.m */,
+				3169FE7A18D5DC2C00C4BFF1 /* flower.jpg */,
 				3169FE5D18D5DC0C00C4BFF1 /* Images.xcassets */,
 				3169FE4C18D5DC0C00C4BFF1 /* Supporting Files */,
 			);
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3169FE7B18D5DC2C00C4BFF1 /* flower.jpg in Resources */,
 				3169FE5E18D5DC0C00C4BFF1 /* Images.xcassets in Resources */,
 				3169FE5018D5DC0C00C4BFF1 /* InfoPlist.strings in Resources */,
 				3169FE5918D5DC0C00C4BFF1 /* Main.storyboard in Resources */,

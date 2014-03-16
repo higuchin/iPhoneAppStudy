@@ -9,7 +9,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UIImageView *flower;
+- (IBAction)dragging:(UIPanGestureRecognizer *)sender;
 @end
 
 @implementation ViewController
@@ -26,4 +27,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)dragging:(UIPanGestureRecognizer *)sender {
+    CGPoint translation = [sender translationInView:self.view];
+    CGPoint point = CGPointMake(_flower.center.x + translation.x,
+                                _flower.center.		y + translation.y);
+    _flower.center = point;
+    
+    [sender setTranslation:CGPointZero inView:self.view];
+}
 @end
