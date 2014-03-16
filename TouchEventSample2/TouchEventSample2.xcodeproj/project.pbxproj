@@ -21,6 +21,7 @@
 		3169FE2418D5D49F00C4BFF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3169FE0618D5D49F00C4BFF1 /* UIKit.framework */; };
 		3169FE2C18D5D49F00C4BFF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3169FE2A18D5D49F00C4BFF1 /* InfoPlist.strings */; };
 		3169FE2E18D5D49F00C4BFF1 /* TouchEventSample2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3169FE2D18D5D49F00C4BFF1 /* TouchEventSample2Tests.m */; };
+		3169FE3818D5D50A00C4BFF1 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3169FE3718D5D50A00C4BFF1 /* flower.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3169FE2918D5D49F00C4BFF1 /* TouchEventSample2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchEventSample2Tests-Info.plist"; sourceTree = "<group>"; };
 		3169FE2B18D5D49F00C4BFF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3169FE2D18D5D49F00C4BFF1 /* TouchEventSample2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchEventSample2Tests.m; sourceTree = "<group>"; };
+		3169FE3718D5D50A00C4BFF1 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				3169FE1418D5D49F00C4BFF1 /* Main.storyboard */,
 				3169FE1718D5D49F00C4BFF1 /* ViewController.h */,
 				3169FE1818D5D49F00C4BFF1 /* ViewController.m */,
+				3169FE3718D5D50A00C4BFF1 /* flower.jpg */,
 				3169FE1A18D5D49F00C4BFF1 /* Images.xcassets */,
 				3169FE0918D5D49F00C4BFF1 /* Supporting Files */,
 			);
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3169FE3818D5D50A00C4BFF1 /* flower.jpg in Resources */,
 				3169FE1B18D5D49F00C4BFF1 /* Images.xcassets in Resources */,
 				3169FE0D18D5D49F00C4BFF1 /* InfoPlist.strings in Resources */,
 				3169FE1618D5D49F00C4BFF1 /* Main.storyboard in Resources */,
