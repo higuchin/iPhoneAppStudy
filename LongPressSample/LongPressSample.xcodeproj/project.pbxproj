@@ -21,6 +21,7 @@
 		3169FEAA18D5E6B100C4BFF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3169FE8C18D5E6B100C4BFF1 /* UIKit.framework */; };
 		3169FEB218D5E6B100C4BFF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3169FEB018D5E6B100C4BFF1 /* InfoPlist.strings */; };
 		3169FEB418D5E6B100C4BFF1 /* LongPressSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3169FEB318D5E6B100C4BFF1 /* LongPressSampleTests.m */; };
+		3169FEBE18D5E6F100C4BFF1 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3169FEBD18D5E6F100C4BFF1 /* flower.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3169FEAF18D5E6B100C4BFF1 /* LongPressSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LongPressSampleTests-Info.plist"; sourceTree = "<group>"; };
 		3169FEB118D5E6B100C4BFF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3169FEB318D5E6B100C4BFF1 /* LongPressSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongPressSampleTests.m; sourceTree = "<group>"; };
+		3169FEBD18D5E6F100C4BFF1 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				3169FE9A18D5E6B100C4BFF1 /* Main.storyboard */,
 				3169FE9D18D5E6B100C4BFF1 /* ViewController.h */,
 				3169FE9E18D5E6B100C4BFF1 /* ViewController.m */,
+				3169FEBD18D5E6F100C4BFF1 /* flower.jpg */,
 				3169FEA018D5E6B100C4BFF1 /* Images.xcassets */,
 				3169FE8F18D5E6B100C4BFF1 /* Supporting Files */,
 			);
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3169FEBE18D5E6F100C4BFF1 /* flower.jpg in Resources */,
 				3169FEA118D5E6B100C4BFF1 /* Images.xcassets in Resources */,
 				3169FE9318D5E6B100C4BFF1 /* InfoPlist.strings in Resources */,
 				3169FE9C18D5E6B100C4BFF1 /* Main.storyboard in Resources */,
