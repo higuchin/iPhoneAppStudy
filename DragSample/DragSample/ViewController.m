@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *flower;
+- (IBAction)rotate:(UIRotationGestureRecognizer *)sender;
 - (IBAction)dragging:(UIPanGestureRecognizer *)sender;
 @end
 
@@ -25,6 +26,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)rotate:(UIRotationGestureRecognizer *)sender {
+    _flower.transform = CGAffineTransformMakeRotation(sender.rotation);
 }
 
 - (IBAction)dragging:(UIPanGestureRecognizer *)sender {
