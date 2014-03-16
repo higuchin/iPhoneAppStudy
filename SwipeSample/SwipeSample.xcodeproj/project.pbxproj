@@ -21,6 +21,7 @@
 		3169FEED18D5EABB00C4BFF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3169FECF18D5EABB00C4BFF1 /* UIKit.framework */; };
 		3169FEF518D5EABB00C4BFF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3169FEF318D5EABB00C4BFF1 /* InfoPlist.strings */; };
 		3169FEF718D5EABB00C4BFF1 /* SwipeSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3169FEF618D5EABB00C4BFF1 /* SwipeSampleTests.m */; };
+		31E3DF9018D5EC0A0010C4C0 /* Annie in the Sink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31E3DF8F18D5EC0A0010C4C0 /* Annie in the Sink.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3169FEF218D5EABB00C4BFF1 /* SwipeSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeSampleTests-Info.plist"; sourceTree = "<group>"; };
 		3169FEF418D5EABB00C4BFF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3169FEF618D5EABB00C4BFF1 /* SwipeSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeSampleTests.m; sourceTree = "<group>"; };
+		31E3DF8F18D5EC0A0010C4C0 /* Annie in the Sink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Annie in the Sink.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				3169FEDD18D5EABB00C4BFF1 /* Main.storyboard */,
 				3169FEE018D5EABB00C4BFF1 /* ViewController.h */,
 				3169FEE118D5EABB00C4BFF1 /* ViewController.m */,
+				31E3DF8F18D5EC0A0010C4C0 /* Annie in the Sink.jpg */,
 				3169FEE318D5EABB00C4BFF1 /* Images.xcassets */,
 				3169FED218D5EABB00C4BFF1 /* Supporting Files */,
 			);
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E3DF9018D5EC0A0010C4C0 /* Annie in the Sink.jpg in Resources */,
 				3169FEE418D5EABB00C4BFF1 /* Images.xcassets in Resources */,
 				3169FED618D5EABB00C4BFF1 /* InfoPlist.strings in Resources */,
 				3169FEDF18D5EABB00C4BFF1 /* Main.storyboard in Resources */,
@@ -456,6 +460,7 @@
 				3169FEFC18D5EABB00C4BFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3169FEFD18D5EABB00C4BFF1 /* Build configuration list for PBXNativeTarget "SwipeSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				3169FEFF18D5EABB00C4BFF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
