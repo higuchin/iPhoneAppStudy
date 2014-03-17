@@ -18,12 +18,28 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIAlertView *alert = [[UIAlertView alloc]
+                          initWithTitle:@"確認" message:@"実行します"
+                          delegate:self cancelButtonTitle:@"キャンセル" otherButtonTitles:@"OK", nil];
+    [alert show];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 0) {
+        NSLog(@"キャンセルされました");
+    } else if (buttonIndex == 1) {
+        NSLog(@"OKされました");
+    } else {
+        NSLog(@"それ以外");
+    }
 }
 
 @end
