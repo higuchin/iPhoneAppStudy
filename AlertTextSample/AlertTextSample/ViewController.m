@@ -9,7 +9,10 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+
 - (IBAction)tapBottan:(id)sender;
+- (IBAction)tapActionSheetButton:(id)sender;
+- (IBAction)tapDeleteButton:(id)sender;
 
 @end
 
@@ -35,6 +38,16 @@
     [alert show];
 }
 
+- (IBAction)tapActionSheetButton:(id)sender {
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"コース選択" delegate:self cancelButtonTitle:@"キャンセル" destructiveButtonTitle:nil otherButtonTitles:@"Aコース", @"Bコース", @"Cコース", nil];
+    [actionSheet showInView:self.view];
+}
+
+- (IBAction)tapDeleteButton:(id)sender {
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"コース選択" delegate:self cancelButtonTitle:@"キャンセル" destructiveButtonTitle:@"削除します" otherButtonTitles:nil];
+    [actionSheet showInView:self.view];
+}
+
 - (BOOL) alertViewShouldEnableFirstOtherButton:(UIAlertView *)alertView
 {
     UITextField *textField = [alertView textFieldAtIndex:0];
@@ -51,5 +64,10 @@
         UITextField *textField = [alertView textFieldAtIndex:0];
         NSLog(@"%@", textField.text);
     }
+}
+
+-(void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    NSLog(@"%@", [actionSheet buttonTitleAtIndex:buttonIndex]);
 }
 @end
