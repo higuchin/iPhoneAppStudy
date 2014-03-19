@@ -21,7 +21,8 @@
     
     UIAlertView *alert = [[UIAlertView alloc]
                           initWithTitle:@"確認" message:@"実行します"
-                          delegate:self cancelButtonTitle:@"キャンセル" otherButtonTitles:@"OK", nil];
+                          delegate:self cancelButtonTitle:@"キャンセル"
+                          otherButtonTitles:@"Aコース", @"Bコース", @"Cコース", nil];
     [alert show];
 }
 
@@ -36,7 +37,11 @@
     if (buttonIndex == 0) {
         NSLog(@"キャンセルされました");
     } else if (buttonIndex == 1) {
-        NSLog(@"OKされました");
+        NSLog(@"Aコース");
+    } else if (buttonIndex == 2) {
+        NSLog(@"Bコース");
+    } else if (buttonIndex == 3) {
+        NSLog(@"Cコース");
     } else {
         NSLog(@"それ以外");
     }
