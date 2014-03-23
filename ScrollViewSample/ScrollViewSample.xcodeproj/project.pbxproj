@@ -21,6 +21,7 @@
 		31E819A518DF12F400817126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E8198718DF12F400817126 /* UIKit.framework */; };
 		31E819AD18DF12F400817126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31E819AB18DF12F400817126 /* InfoPlist.strings */; };
 		31E819AF18DF12F400817126 /* ScrollViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E819AE18DF12F400817126 /* ScrollViewSampleTests.m */; };
+		31E819B918DF13C300817126 /* El Capitan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31E819B818DF13C300817126 /* El Capitan.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		31E819AA18DF12F400817126 /* ScrollViewSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewSampleTests-Info.plist"; sourceTree = "<group>"; };
 		31E819AC18DF12F400817126 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31E819AE18DF12F400817126 /* ScrollViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewSampleTests.m; sourceTree = "<group>"; };
+		31E819B818DF13C300817126 /* El Capitan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "El Capitan.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				31E8199518DF12F400817126 /* Main.storyboard */,
 				31E8199818DF12F400817126 /* ViewController.h */,
 				31E8199918DF12F400817126 /* ViewController.m */,
+				31E819B818DF13C300817126 /* El Capitan.jpg */,
 				31E8199B18DF12F400817126 /* Images.xcassets */,
 				31E8198A18DF12F400817126 /* Supporting Files */,
 			);
@@ -230,6 +233,7 @@
 			files = (
 				31E8199C18DF12F400817126 /* Images.xcassets in Resources */,
 				31E8198E18DF12F400817126 /* InfoPlist.strings in Resources */,
+				31E819B918DF13C300817126 /* El Capitan.jpg in Resources */,
 				31E8199718DF12F400817126 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
