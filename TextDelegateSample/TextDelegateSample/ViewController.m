@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
 @end
 
 @implementation ViewController
@@ -18,12 +20,20 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    _textField.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL) textFieldShouldReturn:(UITextField *)textField
+{
+    [self.view endEditing:YES];
+    return NO;
 }
 
 @end
