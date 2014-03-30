@@ -21,6 +21,11 @@
 		31E819E818E7E29900817126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E819CA18E7E29900817126 /* UIKit.framework */; };
 		31E819F018E7E29900817126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31E819EE18E7E29900817126 /* InfoPlist.strings */; };
 		31E819F218E7E29900817126 /* ScrollViewPagingSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E819F118E7E29900817126 /* ScrollViewPagingSampleTests.m */; };
+		31E819FD18E7E53300817126 /* MyPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E819FC18E7E53300817126 /* MyPage.m */; };
+		31E81A0218E800B100817126 /* Flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31E819FE18E800B100817126 /* Flower.jpg */; };
+		31E81A0318E800B100817126 /* Sunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31E819FF18E800B100817126 /* Sunset.jpg */; };
+		31E81A0418E800B100817126 /* Coast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31E81A0018E800B100817126 /* Coast.jpg */; };
+		31E81A0518E800B100817126 /* Lilies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31E81A0118E800B100817126 /* Lilies.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		31E819ED18E7E29900817126 /* ScrollViewPagingSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewPagingSampleTests-Info.plist"; sourceTree = "<group>"; };
 		31E819EF18E7E29900817126 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31E819F118E7E29900817126 /* ScrollViewPagingSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewPagingSampleTests.m; sourceTree = "<group>"; };
+		31E819FB18E7E53300817126 /* MyPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPage.h; sourceTree = "<group>"; };
+		31E819FC18E7E53300817126 /* MyPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPage.m; sourceTree = "<group>"; };
+		31E819FE18E800B100817126 /* Flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Flower.jpg; sourceTree = "<group>"; };
+		31E819FF18E800B100817126 /* Sunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sunset.jpg; sourceTree = "<group>"; };
+		31E81A0018E800B100817126 /* Coast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Coast.jpg; sourceTree = "<group>"; };
+		31E81A0118E800B100817126 /* Lilies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lilies.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +126,14 @@
 				31E819D518E7E29900817126 /* AppDelegate.h */,
 				31E819D618E7E29900817126 /* AppDelegate.m */,
 				31E819D818E7E29900817126 /* Main.storyboard */,
+				31E819FB18E7E53300817126 /* MyPage.h */,
+				31E819FC18E7E53300817126 /* MyPage.m */,
 				31E819DB18E7E29900817126 /* ViewController.h */,
 				31E819DC18E7E29900817126 /* ViewController.m */,
+				31E819FE18E800B100817126 /* Flower.jpg */,
+				31E819FF18E800B100817126 /* Sunset.jpg */,
+				31E81A0018E800B100817126 /* Coast.jpg */,
+				31E81A0118E800B100817126 /* Lilies.jpg */,
 				31E819DE18E7E29900817126 /* Images.xcassets */,
 				31E819CD18E7E29900817126 /* Supporting Files */,
 			);
@@ -228,9 +245,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E81A0218E800B100817126 /* Flower.jpg in Resources */,
 				31E819DF18E7E29900817126 /* Images.xcassets in Resources */,
+				31E81A0318E800B100817126 /* Sunset.jpg in Resources */,
 				31E819D118E7E29900817126 /* InfoPlist.strings in Resources */,
 				31E819DA18E7E29900817126 /* Main.storyboard in Resources */,
+				31E81A0418E800B100817126 /* Coast.jpg in Resources */,
+				31E81A0518E800B100817126 /* Lilies.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +272,7 @@
 			files = (
 				31E819DD18E7E29900817126 /* ViewController.m in Sources */,
 				31E819D718E7E29900817126 /* AppDelegate.m in Sources */,
+				31E819FD18E7E53300817126 /* MyPage.m in Sources */,
 				31E819D318E7E29900817126 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
