@@ -35,9 +35,19 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if ([[segue identifier] isEqualToString:@"showAlternate"]) {
+    NSArray *identifiers = @[@"showAlternate", @"showImage"];
+    if ([identifiers indexOfObject:[segue identifier]] != NSNotFound) {
         [[segue destinationViewController] setDelegate:self];
     }
+    
+//    if ([[segue identifier] isEqualToString:@"showAlternate"]
+//            || [[segue identifier] isEqualToString:@"showImage"]) {
+//        [[segue destinationViewController] setDelegate:self];
+//    }
+    
+//    if ([[segue identifier] isEqualToString:@"showAlternate"]) {
+//        [[segue destinationViewController] setDelegate:self];
+//    }
 }
 
 @end

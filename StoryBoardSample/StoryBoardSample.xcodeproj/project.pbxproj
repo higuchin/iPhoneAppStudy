@@ -22,6 +22,7 @@
 		31E81A3718EF18EB00817126 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E81A1618EF18EB00817126 /* UIKit.framework */; };
 		31E81A3F18EF18EB00817126 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31E81A3D18EF18EB00817126 /* InfoPlist.strings */; };
 		31E81A4118EF18EB00817126 /* StoryBoardSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E81A4018EF18EB00817126 /* StoryBoardSampleTests.m */; };
+		31E81A4B18EFDAD200817126 /* Annie in the Sink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 31E81A4A18EFDAD200817126 /* Annie in the Sink.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		31E81A3C18EF18EB00817126 /* StoryBoardSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryBoardSampleTests-Info.plist"; sourceTree = "<group>"; };
 		31E81A3E18EF18EB00817126 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31E81A4018EF18EB00817126 /* StoryBoardSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryBoardSampleTests.m; sourceTree = "<group>"; };
+		31E81A4A18EFDAD200817126 /* Annie in the Sink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Annie in the Sink.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				31E81A2818EF18EB00817126 /* MainViewController.m */,
 				31E81A2A18EF18EB00817126 /* FlipsideViewController.h */,
 				31E81A2B18EF18EB00817126 /* FlipsideViewController.m */,
+				31E81A4A18EFDAD200817126 /* Annie in the Sink.jpg */,
 				31E81A2D18EF18EB00817126 /* Images.xcassets */,
 				31E81A1918EF18EB00817126 /* Supporting Files */,
 			);
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E81A4B18EFDAD200817126 /* Annie in the Sink.jpg in Resources */,
 				31E81A2E18EF18EB00817126 /* Images.xcassets in Resources */,
 				31E81A1D18EF18EB00817126 /* InfoPlist.strings in Resources */,
 				31E81A2618EF18EB00817126 /* Main.storyboard in Resources */,
